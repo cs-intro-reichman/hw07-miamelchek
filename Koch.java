@@ -40,6 +40,7 @@ public class Koch {
 
 
 
+
 		curve(n - 1, x1, y1, ax, ay);   // P -> A
 		curve(n - 1, ax, ay, cx, cy);   // A -> C
 		curve(n - 1, cx, cy, bx, by);   // C -> B
